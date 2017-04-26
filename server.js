@@ -9,7 +9,7 @@ var server = http.createServer(function(req, res) {
   res.end('Hello World!,date:'+d);
 });
 
-server.listen(80, function(){
+server.listen(8009, function(){
    var host = server.address().address;
    var port = server.address().port;
   console.log('Hi Docker host:'+host+';port:'+port);
